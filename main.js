@@ -3,7 +3,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.fromTo(".w-1 h1",1, 
   {
-    fontSize: "9vw",
+    fontSize: "8vw",
     zIndex:0,
 /*     position: "static",
  */  },{
