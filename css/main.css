@@ -23,6 +23,7 @@ section .cover_background-frame-wrapper .cover_background-frame {
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 section .cover_background-frame-wrapper .cover_background-frame .cover_background-image {
   position: absolute;
@@ -73,9 +74,10 @@ section .cover_background-frame-wrapper .padding-section-large h1 {
   padding: 2rem;
   font-size: 15vw;
   margin-top: 30vh;
+  color: white;
 }
 section .w-3 {
-  background-color: rgb(161, 8, 110);
+  background: red;
   width: 100%;
   height: 100vh;
 }/*# sourceMappingURL=main.css.map */
