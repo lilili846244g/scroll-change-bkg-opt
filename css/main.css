@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  background-color: rgb(123, 223, 36);
+}
+section .w-1 {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+section .cover_background-frame-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+section .cover_background-frame-wrapper .cover_background-frame {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+section .cover_background-frame-wrapper .cover_background-frame .cover_background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+}
+section .cover_background-frame-wrapper .cover_background-overlay {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #4b51a6 17%, rgba(75, 81, 166, 0.72) 50%, rgba(75, 81, 166, 0.25) 76%, rgba(75, 81, 166, 0) 88%);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+section .cover_background-frame-wrapper .cover_background-h1 {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #4b51a6;
+  opacity: 1;
+}
+section .cover_background-frame-wrapper .padding-section-large {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section .cover_background-frame-wrapper .padding-section-large h1 {
+  text-transform: uppercase;
+  padding: 2rem;
+  font-size: 15vw;
+  margin-top: 30vh;
+}
+section .w-3 {
+  background-color: rgb(161, 8, 110);
+  width: 100%;
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
