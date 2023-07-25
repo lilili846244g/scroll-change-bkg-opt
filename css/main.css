@@ -110,8 +110,9 @@ section .cover_background-frame-wrapper .padding-section-large {
   top: 0;
 }
 section .cover_background-frame-wrapper .padding-section-large h1 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 2rem;
+  margin-left: 5vw;
   font-size: 10vw;
   margin-top: 30vh;
   color: white;

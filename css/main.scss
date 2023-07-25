@@ -109,8 +109,9 @@ section {
             left: 0;
             top: 0;
             h1 {
-                text-transform: uppercase;
+                text-transform: capitalize;
                 padding: 2rem;
+                margin-left: 5vw;
                 font-size: 10vw;
                 margin-top: 30vh;
                 color: white;

@@ -54,8 +54,8 @@ gsap.to(".cover_background-h1",1, {
   );
 
 
-  gsap.from(".padding-section-large h1",1.5, {
-    x:-100,
+  gsap.from(".padding-section-large h1",0.5, {
+    x:-200,
     opacity:0,
     ease: "power1.in",
     scrollTrigger: {
